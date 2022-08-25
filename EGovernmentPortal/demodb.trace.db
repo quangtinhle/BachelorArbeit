@@ -1,0 +1,4 @@
+2022-08-16 09:58:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "USER" nicht gefunden
+Table "USER" not found; SQL statement:
+select user0_.id as col_0_0_ from user user0_ where user0_.identity_id=? limit ? [42102-199]
